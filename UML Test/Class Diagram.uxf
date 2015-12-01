@@ -11,17 +11,15 @@
     </coordinates>
     <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
 Package::FatClass
-{Some Properties}
 --
--id: Long {composite}
+-id: Long
+-str: String
+-i: int
 _-ClassAttribute: Long_
 --
 #Operation(i: int): int
 /+AbstractOperation()/
---
-Responsibilities
--- Resp1
--- Resp2</panel_attributes>
++anotherMethod()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -40,11 +38,7 @@ Package::FatClass
 _-ClassAttribute: Long_
 --
 #Operation(i: int): int
-/+AbstractOperation()/
---
-Responsibilities
--- Resp1
--- Resp2</panel_attributes>
+/+AbstractOperation()/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -120,18 +114,13 @@ _staticObject: Object_
       <h>190</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
-Package::FatClass
-{Some Properties}
+MyPackage::MyClass
 --
 -id: Long {composite}
 _-ClassAttribute: Long_
 --
 #Operation(i: int): int
-/+AbstractOperation()/
---
-Responsibilities
--- Resp1
--- Resp2</panel_attributes>
+/+AbstractOperation()/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
