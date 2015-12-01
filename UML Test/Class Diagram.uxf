@@ -31,14 +31,13 @@ _-ClassAttribute: Long_
       <h>114</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
-Package::FatClass
-{Some Properties}
+Package:RenamedClass
 --
 -id: Long {composite}
 _-ClassAttribute: Long_
 --
 #Operation(i: int): int
-/+AbstractOperation()/</panel_attributes>
+/+AbstractOperation():String/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -54,9 +53,9 @@ Package::FatClass
 {Some Properties}
 --
 -id: Long {composite}
-_-ClassAttribute: Long_
+_-JustsomeOtherChanges(): Long_
 --
-#Operation(i: int): int
+#test&amp;test&amp;test(i: int): int
 /+AbstractOperation()/
 --
 Responsibilities
@@ -102,7 +101,7 @@ TestInterface
 _staticObject: Object_
 --
 #meineMethode(i: int): int
-/+AbstractOperation()/</panel_attributes>
+/+AbstractOperationV2()/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -196,14 +195,14 @@ teaches to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>906</x>
-      <y>366</y>
-      <w>192</w>
-      <h>66</h>
+      <x>930</x>
+      <y>260</y>
+      <w>320</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=0..n</panel_attributes>
-    <additional_attributes>10.0;90.0;160.0;10.0;300.0;50.0</additional_attributes>
+    <additional_attributes>10.0;50.0;300.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -235,20 +234,17 @@ TemplateClass
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>120</y>
-      <w>126</w>
-      <h>114</h>
+      <x>1360</x>
+      <y>370</y>
+      <w>210</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>Package::MyNewClass
+    <panel_attributes>ChildClass
 --
 -id: Long {composite}
 _-ClassAttribute: Long_
-ekf 
 --
-#Operation(i: int): int
-/+AbstractOperation()/
--elefn():rkgb</panel_attributes>
+#Operation(i: int): int</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
